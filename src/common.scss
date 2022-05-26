@@ -1,0 +1,74 @@
+.container {
+    box-sizing: border-box;
+    background-color: #222831;
+    height: 100%;
+    padding:0 40px;
+    position: relative;
+}
+
+.title {
+    font-size: 82px;
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.sub-title {
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
+}
+
+.talent-item {
+    text-align: center;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 50px;
+    height: 50px;
+    color: #eee;
+    background-color: #464646;
+
+    &.selected {
+        background-color: #c0c0c0 !important;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background-color: #000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            box-shadow: 0 0 10px #000;
+            opacity: 0;
+            animation: blink 3s linear infinite;
+        }
+    }
+}
+
+.grade0b {
+	background-color: #464646;
+	/* border: #f8f8f8 2px solid !important; */
+}
+.grade1b {
+	background-color: #6495ed;
+	/* border: #f8f8f8 2px solid !important; */
+}
+.grade2b {
+	background-color: #e2a7ff;
+	/* border: #f8f8f8 2px solid !important; */
+}
+.grade3b {
+	background-color: #ffa07a;
+	/* border: #f8f8f8 2px solid !important; */
+}
+

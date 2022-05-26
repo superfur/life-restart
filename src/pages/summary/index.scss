@@ -1,0 +1,27 @@
+@import "../../common.scss";
+
+.btn {
+    color: #fff;
+    padding:0 50px;
+    flex: 1;
+    color: #fff;
+}
+
+.summary-row {
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-left: 50px;
+    line-height: 50px;
+    height: 50px;
+    font-size: 30px;
+    width: auto;
+}
+
+.userinfo {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

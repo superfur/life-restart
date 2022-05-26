@@ -1,0 +1,61 @@
+@import "../../common.scss";
+
+.top {
+    padding-top: 40px;
+}
+
+.at-col {
+
+    &.right {
+        text-align: right;
+    }
+}
+
+.label {
+    text-align: right;
+    width: 3rem;
+    margin-right: 5px;
+}
+
+.content {
+    flex: 1;
+}
+
+.life-property {
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 10px;
+
+    &-label {
+        text-align: center;
+    }
+
+    &-value {
+        text-align: center;
+        background-color: #eee;
+        color: #666;
+    }
+}
+
+.main {
+    width: 100%;
+    border-style: solid;
+    border: 1px #ccc solid;
+    border-width: 2px 2px;
+    border-radius: 0.2rem;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.year {
+    margin: 10px 0;
+    padding: 5px 10px;
+    display: flex;
+    background-color: #4a5361;
+    box-shadow: #eeeeee 0 0 0.4rem;
+    color: #EEEEEE;
+    font-size: 1rem;
+    position: relative;
+    display: flex;
+}

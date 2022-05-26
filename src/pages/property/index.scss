@@ -1,0 +1,47 @@
+@import "../../common.scss";
+
+.form {
+    width: 100%;
+    color: #fff;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.talents-table {
+    width: 100%;
+}
+
+.btn-view {
+    margin-top: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    color: #fff;
+    padding:0 50px;
+    flex: 1;
+    margin-right: 40px;
+    color: #fff;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.main {
+    margin-top: 100px;
+
+    .talent-view {
+        margin-top: 200px;
+    }
+}
+
+.footer-view {
+    display: flex;
+}

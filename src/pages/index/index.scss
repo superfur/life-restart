@@ -1,0 +1,42 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+    background-color: #222831;
+    color: #fff;
+    position: relative;
+}
+
+.title {
+    font-size: 82px;
+    color: white;
+    background-size: cover;
+}
+
+.top-right {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.btn-view {
+    margin-top: 300px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    color: #fff;
+    padding:0 50px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+}
